@@ -5,12 +5,12 @@ import Head from "next/head"
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
-			<Head>
-				<title>A melhor hospedagem é aqui!</title>
-				<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
-				<meta name="description" content="Minecraft host a um preço super gostoso." />
-				<meta name="author" content="Coco Blanco" />
-			</Head>
+				<Head>
+					<title>A melhor hospedagem é aqui!</title>
+					<link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+					<meta name="description" content="Minecraft host a um preço super gostoso." />
+					<meta name="author" content="Coco Blanco" />
+				</Head>
 			<Component {...pageProps} />
 		</>
 	)
