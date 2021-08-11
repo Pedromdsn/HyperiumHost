@@ -25,10 +25,10 @@ export default function EndFootBar() {
 				</div>
 				<div className="flex justify-center flex-col items-center mb-20 mt-10 text-center font-medium text-lg">
 					<h2 className="flex flex-wrap justify-center items-center">
-						{dev} &#140; Desenvolvido por &#140;<strong>Coco Blanco</strong>
+						{dev} &#160; Desenvolvido por &#160;<strong>Coco Blanco</strong>
 					</h2>
 					<h2 className="flex flex-wrap justify-center items-center md:mt-4">
-						2020 - 2021 &#140; {eComercial} &#140; Hyperium Hosting -{" "}
+						2020 - 2021 &#160; {eComercial} &#160; Hyperium Hosting -{" "}
 						<span>Todos direitos reservados.</span>
 					</h2>
 				</div>
