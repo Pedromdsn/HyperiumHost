@@ -11,11 +11,11 @@ export default function TopHeadBar() {
 				className={
 					menu
 						? "w-5/6 md:h-0 md:-mt-20 overflow-hidden flex justify-between items-center mt-10 transition-all"
-						: "flex flex-col w-5/6 md:mt-20 transition-all"
+						: "flex flex-col w-5/6 md:mt-28 transition-all"
 				}>
 				<div className="">
 					<Link href="/" passHref>
-						<div className="cinzaClaro rounded-xl flex items-center">
+						<div className="cinzaClaro rounded-xl flex items-center font-normal">
 							{homePage} <span>Pagina Inicial</span>
 						</div>
 					</Link>

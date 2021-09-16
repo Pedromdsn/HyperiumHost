@@ -12,10 +12,10 @@ import Esmeralda from "../../public/esmeralda.png"
 
 export default function Mine() {
 	return (
-		<div className="flex flex-col w-2/3 justify-center text-center mx-auto mt-40">
-			<h1 className="text-5xl font-extrabold">Hospedagem Minecraft</h1>
+		<div className="flex flex-col w-7/12 justify-center text-center mx-auto mt-20">
+			<h1 className="text-5xl font-semibold md:text-3xl">Hospedagem Minecraft</h1>
 			<h2 className="text-lg text-gray-300 ">
-				Abrir um servidor de Minecraft nunca foi tão fácil, com a Coffe você une qualidade e um excelente
+				Abrir um servidor de Minecraft nunca foi tão fácil, com a Hyperium você une qualidade e um excelente
 				desempenho!
 			</h2>
 			<div className="flex flex-wrap justify-around mb-20">
@@ -29,7 +29,7 @@ export default function Mine() {
 				<MineShop ico={Ouro} tamanho={16} />
 			</div>
 
-			<h1 className="text-5xl font-extrabold">Plano para Network</h1>
+			<h1 className="text-5xl font-semibold md:text-3xl">Plano para Network</h1>
 			<h2 className="text-lg text-gray-300 ">
 				Os planos perfeitos para servidores com diversas modalidades de jogos.
 			</h2>
@@ -50,27 +50,26 @@ type MineShopProps = {
 
 function MineShop(props: MineShopProps) {
 	return (
-		<div className="cinzaClaro rounded-xl mt-20 mb-10">
+		<div className="cinzaClaro rounded-lg mt-20 mb-10 px-5">
 			<div className="-mt-16">
 				<Image src={props.ico} alt="Erro" />
 			</div>
-			<div>
-				<h1 className="text-4xl font-extrabold mt-6">{props.tamanho}GB</h1>
-
-				<h2 className="mt-8 text-gray-300 text-lg">
+			<div className="flex flex-col">
+				<h1 className="text-5xl font-semibold mt-10 mb-5 md:text-4xl">{props.tamanho}GB</h1>
+				<h2 className="text-gray-300">
 					De <strong>R$ {props.tamanho * 6}</strong> por
 				</h2>
 				<div className="flex text-center items-end justify-center">
-					<h2 className="text-5xl font-semibold">R$ {props.tamanho * 5}</h2>
-					<h2 className="text-xl">/mês</h2>
+					<h2 className="text-3xl font-semibold md:text-2xl">R$ {props.tamanho * 5}</h2>
+					<h2 className="text-lg">/mês</h2>
 				</div>
-				<h2 className="text-gray-300 text-lg">pra sempre</h2>
+				<h2 className="text-gray-300">pra sempre</h2>
 
-				<button className="text-lg font-semibold mt-10 rounded-2xl cinza2 px-10 py-4 mx-10">
+				<button className="font-semibold mt-5 rounded-lg cinza2 px-10 py-2 ">
 					Escolher Plano
 				</button>
 
-				<p className="text-center mt-10 pb-10 text-lg">
+				<p className="mt-5 pb-5 text-left">
 					Jogadores Ilimitados
 					<br /> Proteção Anti-DDoS
 					<br /> Suporta a 1.16+
