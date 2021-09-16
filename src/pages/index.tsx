@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import TopHeadBar from '../components/HeadBar'
 import Sobre from '../components/Main'
 import Why from '../components/Why'
 import EndFootBar from '../components/FootBar'
+import Discord from '../components/Discord'
 
 export default function Home() {
   return (
@@ -12,6 +11,7 @@ export default function Home() {
         <Sobre/>
         <Why/>
         <EndFootBar/>
+        <Discord/>
     </div>
   )
 }

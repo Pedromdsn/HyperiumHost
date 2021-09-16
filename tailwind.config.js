@@ -18,6 +18,8 @@ module.exports = {
 	},
 	variants: {
 		extend: {
+			height: ["hover", "focus"],
+			width: ["hover", "focus"],
 			display: ["even"],
 		},
 	},
