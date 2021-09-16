@@ -10,7 +10,7 @@ export default function Why(){
 					<WhyCard icon={clock} title="Tempo de ativação" subTitle="Nosso prazo para ativação de serviços é de 5 minutos!"/>
 					<WhyCard icon={card} title="Sobre o reembolso" subTitle="Prazo de 7 dias para a solicitação do reembolso!"/>
 					<WhyCard icon={smile} title="Suporte ao cliente" subTitle="Nosso suporte está disponível 24/7 para você"/>
-					<WhyCard icon={ladrao} title="Proteção de dados" subTitle="Seus dados são criptógrafos com segurança!"/>
+					<WhyCard icon={ladrao} title="Proteção de dados" subTitle="Seus dados são criptografados com segurança!"/>
 				</div>
 			</div>
 		</div>
