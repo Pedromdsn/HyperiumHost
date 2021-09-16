@@ -2,8 +2,8 @@ import { card, clock, ladrao, smile } from "../icons/WhyCard"
 
 export default function Why(){
 	return(
-		<div className="Why mt-20 flex justify-center">
-			<div className="w-7/12">
+		<div className="Why mt-20 flex justify-center ">
+			<div className="w-7/12 3xl:w-4/5 ">
 				<h1 className="text-5xl font-bold">Porque escolher a Hyperium?</h1>
 				<h2 className="font-medium mt-5">Somos uma hospedagem que sempre preza pela qualidade, custo benefício e satisfação total de nossos clientes. Temos diversos benefícios exclusivos para você ;)</h2>
 				<div className="flex mt-10 flex-wrap justify-center gap-5 mb-20">

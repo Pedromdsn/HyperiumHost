@@ -12,13 +12,13 @@ import Esmeralda from "../../public/esmeralda.png"
 
 export default function Mine() {
 	return (
-		<div className="flex flex-col w-7/12 justify-center text-center mx-auto mt-20">
+		<div className="flex flex-col w-7/12 3xl:w-4/5 justify-center text-center mx-auto mt-20">
 			<h1 className="text-5xl font-semibold md:text-3xl">Hospedagem Minecraft</h1>
 			<h2 className="text-lg text-gray-300 ">
 				Abrir um servidor de Minecraft nunca foi tão fácil, com a Hyperium você une qualidade e um excelente
 				desempenho!
 			</h2>
-			<div className="flex flex-wrap justify-around mb-20">
+			<div className="flex flex-wrap justify-around mb-20 gap-5">
 				<MineShop ico={Terra} tamanho={2} />
 				<MineShop ico={Grama} tamanho={4} />
 				<MineShop ico={Madeira} tamanho={6} />
@@ -33,7 +33,7 @@ export default function Mine() {
 			<h2 className="text-lg text-gray-300 ">
 				Os planos perfeitos para servidores com diversas modalidades de jogos.
 			</h2>
-			<div className="flex flex-wrap justify-around mb-32">
+			<div className="flex flex-wrap justify-around mb-32 gap-5">
 				<MineShop ico={Diamante} tamanho={24} />
 				<MineShop ico={Diamante} tamanho={32} />
 				<MineShop ico={Esmeralda} tamanho={48} />
