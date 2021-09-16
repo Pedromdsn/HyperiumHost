@@ -16,7 +16,7 @@ In the styling of the site was used [Tailwindcss](https://tailwindcss.com/) css 
 ## Preview:
 
 <div align="center">
-<img src="https://cdn.discordapp.com/attachments/657744571395997719/874645100297338940/unknown.png">
+<img src="https://media.discordapp.net/attachments/848217285260476447/888064559414399026/unknown.png?width=606&height=478">
 <br>
 2) You can check the website <a href="https://hyperium.cocoblanco.fun">here</a>
 </div>
