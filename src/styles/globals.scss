@@ -1,0 +1,78 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.TopHeadBar {
+  div {
+    @media screen and (min-width: 767px) {
+      &:not(:last-child) {
+        display: flex;
+      }
+      div {
+        display: flex;
+        cursor: pointer;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      > div > div {
+        display: flex;
+      }
+    }
+
+    > div > div {
+      padding: 0.5rem 1rem;
+    }
+  }
+
+  span {
+    margin-left: 10px;
+  }
+}
+
+.End {
+  > div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 50px;
+    > h1 {
+      font-weight: 700;
+      margin-bottom: 7px;
+      font-size: x-large;
+    }
+    > h2 {
+      color: rgb(192, 192, 192);
+      cursor: pointer;
+    }
+  }
+}
+
+.cinza {
+  background-color: #14121d;
+}
+
+.cinza2 {
+  background-color: #1d1a2c;
+}
+
+.cinza3 {
+  background-color: rgba(0, 0, 0, 0.137);
+}
+
+.cinzaClaro {
+  background-color: #282438;
+}
