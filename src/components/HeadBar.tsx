@@ -25,12 +25,14 @@ export default function TopHeadBar() {
 						</div>
 					</Link>
 				</div>
-				<div className="">
-					<div>Login</div>
-					<div className="cinzaClaro rounded-xl">Criar minha conta</div>
+				<div className="flex gap-5 children:px-4 children:py-2">
+					<a href="#">Login</a>
+					<a href="#" className="cinzaClaro rounded-xl">
+						Criar minha conta
+					</a>
 				</div>
 			</div>
-			<div className="hidden cursor-pointer md:flex md:absolute top-10 right-10" onClick={(e) => setMenu(!menu)}>
+			<div className="hidden cursor-pointer md:flex md:absolute top-10 right-10" onClick={() => setMenu(!menu)}>
 				{burguer}
 			</div>
 		</div>

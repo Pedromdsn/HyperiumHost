@@ -23,7 +23,10 @@ module.exports = {
 			height: ["hover", "focus"],
 			width: ["hover", "focus"],
 			display: ["even"],
+			padding: ["children"],
 		},
 	},
-	plugins: [],
+	plugins: [
+		require('tailwindcss-children'),
+	],
 }

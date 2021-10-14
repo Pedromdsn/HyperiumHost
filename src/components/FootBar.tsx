@@ -9,18 +9,18 @@ export default function EndFootBar() {
 					<div>
 						<h1>PRODUTOS</h1>
 						<Link href="/minecraft" passHref>
-							<h2>Hospedagem de Minecraft</h2>
+							<a href="#">Hospedagem de Minecraft</a>
 						</Link>
 					</div>
 					<div>
 						<h1>SUPORTE</h1>
-						<h2>Base de conhecimento</h2>
-						<h2>Chat de atendimento</h2>
+						<a href="#">Base de conhecimento</a>
+						<a href="#">Chat de atendimento</a>
 					</div>
 					<div>
 						<h1>A EMPRESA</h1>
-						<h2>Status da rede</h2>
-						<h2>Trabalhe conosco</h2>
+						<a href="#">Status da rede</a>
+						<a href="#">Trabalhe conosco</a>
 					</div>
 				</div>
 				<div className="flex justify-center flex-col items-center mb-20 mt-10 text-center font-medium">
@@ -31,8 +31,7 @@ export default function EndFootBar() {
 						</a>
 					</h2>
 					<h2 className="flex flex-wrap justify-center items-center md:mt-4">
-						2020 - 2021 &#160; {eComercial} &#160; Hyperium Hosting -{" "}
-						<span>Todos direitos reservados.</span>
+						2020 - 2021 &#160; {eComercial} &#160; Hyperium Hosting - <span>Todos direitos reservados.</span>
 					</h2>
 				</div>
 			</div>
