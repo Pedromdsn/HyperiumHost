@@ -3,7 +3,7 @@ import { card, clock, ladrao, smile } from "../icons/WhyCard"
 export default function Why() {
 	return (
 		<div className="Why mt-20 flex justify-center ">
-			<div className="w-[85vw] max-w-[1600px]">
+			<div className="w-[85vw] max-w-[1111px]">
 				<h1 className="text-5xl font-bold">Porque escolher a Hyperium?</h1>
 				<h2 className="font-medium mt-5">
 					Somos uma hospedagem que sempre preza pela qualidade, custo benefício e satisfação total de nossos clientes.
@@ -40,7 +40,8 @@ type WhyCardProps = {
 
 export function WhyCard(props: WhyCardProps) {
 	return (
-		<div className="cinza3 flex flex-col items-center text-center px-3 py-10 rounded-lg" style={{ width: "263px" }}>
+		<div className="cinza3 flex flex-col items-center text-center px-3 py-10 
+		rounded-lg w-[263px] hover:-translate-y-1 transition-all duration-300">
 			<div>{props.icon}</div>
 			<h1 className="mt-3 mb-4 font-semibold text-xl">{props.title}</h1>
 			<h2 className="font-medium text-gray-400">{props.subTitle}</h2>

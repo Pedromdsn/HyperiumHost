@@ -14,10 +14,10 @@ export default function Sobre() {
 					</div>
 					<div className="flex flex-row mt-5 text-lg sm:text-base gap-5 text-gray-300">
 						<Link href="/minecraft" passHref>
-							<button className="cinza2 py-2 px-5 rounded-xl">Ver Plano</button>
+							<button className="cinza2 py-2 px-5 rounded-xl hover:brightness-110 transition-all duration-200">Ver Plano</button>
 						</Link>
 						<Link href="/minecraft" passHref>
-							<button className="cinza2 py-2 px-5 rounded-xl">Sobre A Empresa</button>
+							<button className="cinza2 py-2 px-5 rounded-xl hover:brightness-110 transition-all duration-200">Sobre A Empresa</button>
 						</Link>
 					</div>
 				</div>
