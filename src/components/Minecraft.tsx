@@ -12,7 +12,7 @@ import Esmeralda from "../../public/esmeralda.png"
 
 export default function Mine() {
 	return (
-		<div className="flex flex-col w-7/12 3xl:w-4/5 justify-center text-center mx-auto mt-20">
+		<div className="flex flex-col w-[80vw] max-w-[1200px] justify-center text-center mx-auto mt-20">
 			<h1 className="text-5xl font-semibold md:text-3xl">Hospedagem Minecraft</h1>
 			<h2 className="text-lg text-gray-300 ">
 				Abrir um servidor de Minecraft nunca foi tão fácil, com a Hyperium você une qualidade e um excelente desempenho!

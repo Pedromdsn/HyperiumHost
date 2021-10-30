@@ -4,7 +4,7 @@ import { dev, eComercial } from "../icons/Footer"
 export default function EndFootBar() {
 	return (
 		<div className="cinzaClaro flex justify-center">
-			<div className="w-2/3 flex-col">
+			<div className="w-[80vw] max-w-[1500px] flex-col">
 				<div className="End flex justify-around text-center mt-20 flex-wrap">
 					<div>
 						<h1>PRODUTOS</h1>
