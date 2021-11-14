@@ -48,12 +48,12 @@ type MineShopProps = {
 
 function MineShop({ ico, tamanho, link }: MineShopProps) {
 	return (
-		<div className="cinzaClaro rounded-lg mt-20 mb-10 px-5">
+		<div className="cinzaClaro rounded-lg mt-20 mb-10 px-8 pb-2">
 			<div className="-mt-16">
-				<Image src={ico} alt="Erro" />
+				<Image src={ico} alt="Erro" quality={33} />
 			</div>
 			<div className="flex flex-col">
-				<h1 className="text-5xl font-semibold mt-10 mb-5 md:text-4xl">{tamanho}GB</h1>
+				<h1 className="text-5xl font-semibold mt-4 mb-5 md:text-4xl">{tamanho}GB</h1>
 				<h2 className="text-gray-300">
 					De <strong>R$ {tamanho * 6}</strong> por
 				</h2>
@@ -63,11 +63,11 @@ function MineShop({ ico, tamanho, link }: MineShopProps) {
 				</div>
 				<h2 className="text-gray-300">pra sempre</h2>
 
-				<a href={link} className="font-semibold mt-5 rounded-lg cinza2 px-10 py-2 ">
+				<a href={link} className="font-semibold mt-5 rounded-lg cinza2 px-12 py-2 ">
 					Escolher Plano
 				</a>
 
-				<p className="mt-5 pb-5 text-left">
+				<p className="mt-5 pb-5 text-left ml-4">
 					Jogadores Ilimitados
 					<br /> Proteção Anti-DDoS
 					<br /> Suporta a 1.16+

@@ -4,8 +4,8 @@ import pigman from "../../public/ezgif-7-2d7872661596.png"
 
 export default function Sobre() {
 	return (
-		<div className="Sobre flex justify-center mt-40">
-			<div className="cinzaClaro flex text-center w-7/12 3xl:w-4/5  h-72 items-center overflow-hidden justify-around rounded-2xl p-5 xl:h-auto">
+		<div className="Sobre flex justify-center mt-40  mx-auto">
+			<div className="cinzaClaro flex text-center h-72 items-center overflow-hidden justify-around rounded-2xl p-5 xl:h-auto w-[90vw] max-w-[1150px]">
 				<div className="flex flex-col xl:w-full gap-5 justify-center">
 					<h1 className="font-black text-2xl mb-3 font-Montserrat uppercase px-4">A melhor hospedagem de minecraft</h1>
 					<div className="text-lg text-gray-400 text-left">
@@ -22,7 +22,7 @@ export default function Sobre() {
 					</div>
 				</div>
 				<div className="xl:hidden">
-					<Image src={pigman} alt="Erro" />
+					<Image src={pigman} alt="Erro" priority quality={50}/>
 				</div>
 			</div>
 		</div>
