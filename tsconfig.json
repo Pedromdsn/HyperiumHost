@@ -5,7 +5,7 @@
       "dom",
       "dom.iterable",
       "esnext",
-      "ES2020"
+      "ES2021"
     ],
     "allowJs": true,
     "skipLibCheck": true,
