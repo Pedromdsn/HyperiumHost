@@ -3,7 +3,7 @@ export const MineShop = ({ ico, tamanho, link }: MineCraftItem) => {
 	return (
 		<div className="cinzaClaro rounded-lg mt-20 mb-10 px-6 pb-2">
 			<div className="-mt-16 relative">
-				<Image src={"/" + ico + ".png"} alt="Erro" quality={33} width={200} height={170} />
+				<Image src={"/" + ico + ".png"} alt="Erro" width={200} height={170} lazyBoundary="500px"/>
 			</div>
 			<div className="flex flex-col">
 				<h1 className="text-5xl font-semibold mt-4 mb-5 md:text-4xl">{tamanho}GB</h1>
