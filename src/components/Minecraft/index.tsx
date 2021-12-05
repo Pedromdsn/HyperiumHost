@@ -10,7 +10,7 @@ import Ferro from "../../public/iron-block.png"
 import Ouro from "../../public/gold-block.png"
 import Diamante from "../../public/diamond-block.png"
 import Esmeralda from "../../public/esmeralda.png"
-import { StoreConfig } from "../../_config/minecraft"
+import { StoreConfig } from "../../_config/config"
 import { useEffect, useState } from "react"
 const Mine = () => {
 	return (

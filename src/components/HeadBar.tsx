@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { burguer, homePage, minecraft } from "../icons/HeadBar"
 import Link from "next/link"
-import { StoreConfig } from "../_config/minecraft"
+import { StoreConfig } from "../_config/config"
 
 export default function TopHeadBar() {
 	const [menu, setMenu] = useState(!false)
