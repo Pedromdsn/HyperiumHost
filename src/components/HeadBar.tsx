@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { burguer, homePage, minecraft } from "../icons/HeadBar"
 import Link from "next/link"
+import { StoreConfig } from "../_config/minecraft"
 
 export default function TopHeadBar() {
 	const [menu, setMenu] = useState(!false)
@@ -25,11 +26,17 @@ export default function TopHeadBar() {
 						</div>
 					</Link>
 				</div>
-				<div className="flex gap-5 children:px-4 children:py-2">
-					<a href="#">Login</a>
-					<a href="#" className="cinzaClaro rounded-xl">
-						Criar minha conta
-					</a>
+				<div className="flex gap-5 children:px-4 children:py-2 md:flex-col md:gap-0">
+					<Link href={StoreConfig.login} passHref>
+						<div className="flex items-center">
+							Login
+						</div>
+					</Link>
+					<Link href={StoreConfig.createAccount} passHref>
+						<div className="flex items-center cinzaClaro rounded-xl">
+							Criar minha conta
+						</div>
+					</Link>
 				</div>
 			</div>
 			<div className="hidden cursor-pointer md:flex md:absolute top-10 right-10" onClick={() => setMenu(!menu)}>

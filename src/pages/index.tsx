@@ -1,8 +1,8 @@
 import TopHeadBar from '../components/HeadBar'
-import Sobre from '../components/Main'
-import Why from '../components/Why'
+import Sobre from '../components/Home/Main'
+import Why from '../components/Home/Why'
 import EndFootBar from '../components/FootBar'
-import Discord from '../components/Discord'
+import Discord from '../components/Home/Discord'
 
 export default function Home() {
   return (

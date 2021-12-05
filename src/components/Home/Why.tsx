@@ -1,4 +1,4 @@
-import { card, clock, ladrao, smile } from "../icons/WhyCard"
+import { card, clock, ladrao, smile } from "../../icons/WhyCard"
 
 export default function Why() {
 	return (

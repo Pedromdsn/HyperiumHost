@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import pigman from "../../public/ezgif-7-2d7872661596.png"
+import pigman from "../../../public/ezgif-7-2d7872661596.png"
 
 export default function Sobre() {
 	return (
