@@ -1,17 +1,20 @@
-import TopHeadBar from '../components/HeadBar'
-import Sobre from '../components/Home/Main'
-import Why from '../components/Home/Why'
-import EndFootBar from '../components/FootBar'
-import Discord from '../components/Home/Discord'
+import Layout from "@/components/layout";
+import EndFootBar from "../components/FootBar";
+import TopHeadBar from "../components/HeadBar";
+import Discord from "../components/Home/Discord";
+import Sobre from "../components/Home/Main";
+import Why from "../components/Home/Why";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="cinza text-white font-Poppins">  
-        <TopHeadBar/>
-        <Sobre/>
-        <Why/>
-        <EndFootBar/>
-        <Discord/>
-    </div>
-  )
-}
+    <Layout>
+      <TopHeadBar />
+      <Sobre />
+      <Why />
+      <Discord />
+      <EndFootBar />
+    </Layout>
+  );
+};
+
+export default Home;

@@ -1,13 +1,16 @@
-import TopHeadBar from "../components/HeadBar"
-import Mine from "../components/Minecraft"
-import EndFootBar from '../components/FootBar'
+import Layout from "@/components/layout";
+import EndFootBar from "../components/FootBar";
+import TopHeadBar from "../components/HeadBar";
+import Mine from "../components/Minecraft";
 
-export default function Minecraft(){
-	return(
-		<div className="cinza text-white font-Poppins">
-			<TopHeadBar/>	
-			<Mine/>
-			<EndFootBar/>
-		</div>
-	)
-}
+const Minecraft = () => {
+  return (
+    <Layout>
+      <TopHeadBar />
+      <Mine />
+      <EndFootBar />
+    </Layout>
+  );
+};
+
+export default Minecraft;

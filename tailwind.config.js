@@ -1,32 +1,30 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-	mode: 'jit',
-	purge: ["./src/**"],
-	darkMode: false, // or 'media' or 'class'
+	content: ["./src/**/*.{js,ts,jsx,tsx}"],
+	darkMode: "class",
 	theme: {
 		extend: {
 			fontFamily: {
-				Poppins: ["Poppins", "sans-serif"],
-				Montserrat: ["Montserrat", "sans-serif"],
+				Main: ["Poppins", "sans-serif"],
+				Montserrat: ["Montserrat", "sans-serif"]
 			},
-		},
-		screens: {
-			"3xl": { max: "1601px" },
-			"2xl": { max: "1535px" },
-			xl: { max: "1279px" },
-			lg: { max: "1023px" },
-			md: { max: "767px" },
-			sm: { max: "639px" },
-		},
+			screens: {
+				"3xl": { max: "1601px" },
+				"2xl": { max: "1535px" },
+				xl: { max: "1279px" },
+				lg: { max: "1023px" },
+				md: { max: "767px" },
+				sm: { max: "639px" }
+			},
+
+			colors: {
+				"cinza-500": "#14121d",
+				"cinza-400": "#1d1a2c",
+				"cinza-200": "#00000023",
+				"cinza-100": "#282438"
+			}
+		}
 	},
-	variants: {
-		extend: {
-			height: ["hover", "focus"],
-			width: ["hover", "focus"],
-			display: ["even"],
-			padding: ["children"],
-		},
-	},
-	plugins: [
-		require('tailwindcss-children'),
-	],
+
+	plugins: []
 }
