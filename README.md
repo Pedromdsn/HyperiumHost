@@ -23,6 +23,6 @@ In the styling of the site was used [Tailwindcss](https://tailwindcss.com/) css 
 
 ## Contact
 
-Discord: !   Pedromdsn#3873
+Discord: pedromdsn
 
 Site: https://pedromdsn.com
